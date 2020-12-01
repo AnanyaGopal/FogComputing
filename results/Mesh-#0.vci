@@ -1,0 +1,39 @@
+                                                                
+version 2
+run Mesh-0-20201127-20:56:26-5039
+attr configname Mesh
+attr datetime 20201127-20:56:26
+attr experiment Mesh
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network networks.Mesh
+attr processid 5039
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.destAddresses "\"0 18 52\""
+param **.appType "\"App\""
+param **.app.packetLength "4096 bytes"
+
+vector 0 Mesh.node[52].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 1 Mesh.node[0].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 2 Mesh.node[18].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+0	898 150 19 250 0.020956660399 0.20660158603 5 0 0.000929376 0.002788128 2.168163044352e-06
+1	1048 65 69 209 0.074216427465 0.127467625438 2 0.000531072 0.001593216 0.002124288 2.82037469184e-06
+2	1113 98 119 232 0.091692098124 0.151894693665 3 0.000531072 0.001194912 0.002389824 2.150535702528e-06
+0	1211 33 291 291 0.307545888153 0.307545888153 1 0.000265536 0.000265536 0.000265536 7.0509367296e-08
+1	1244 97 269 357 0.236352916911 0.343483426518 3 0.000531072 0.00132768 0.002522592 2.485455197184e-06
+2	1341 33 280 280 0.264739615136 0.264739615136 1 0.000265536 0.000265536 0.000265536 7.0509367296e-08

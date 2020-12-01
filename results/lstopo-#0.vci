@@ -1,0 +1,46 @@
+                                                                
+version 2
+run lstopo-0-20201130-18:10:55-14292
+attr configname lstopo
+attr datetime 20201130-18:10:55
+attr experiment lstopo
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network networks.lstopo
+attr processid 14292
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param lstopo.leafs[0].nodeName "\"leaf1\""
+param lstopo.leafs[1].nodeName "\"leaf2\""
+param lstopo.leafs[2].nodeName "\"leaf3\""
+param lstopo.leafs[3].nodeName "\"leaf4\""
+param lstopo.spines[0].nodeName "\"spine1\""
+param lstopo.spines[1].nodeName "\"spine2\""
+param **.appType "\"App\""
+param **.app.packetLength "4096 bytes"
+
+vector 0 lstopo.spines[0].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 1 lstopo.spines[1].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 2 lstopo.leafs[1].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+vector 3 lstopo.leafs[2].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr title "end-to-end delay of arrived packets, vector"
+attr unit s
+0	1293 341 3 440 0.795874504566 9.853015813996 15 0 0 0 0
+1	1634 247 6 419 0.898560388484 8.803450947789 11 0 0 0 0
+2	1881 330 19 481 1.256196294047 10.657751281177 10 0.000265536 0.000265536 0.00265536 7.0509367296e-07
+3	2211 688 51 455 1.860002516075 9.884725288095 21 0.000265536 0.000398304 0.007169472 2.538337222656e-06
